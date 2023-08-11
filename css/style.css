@@ -1,0 +1,108 @@
+@font-face{
+    font-family:digital;
+    src: url("D:\fabevy\mini-project\digital-clock\css\digital-7.regular.ttf");
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+#clock-sec{
+    width:100%;
+    padding-top: 100px;
+}
+.clock-container{
+    width:90%;
+    margin: 0 auto;
+   
+}
+.digital{
+    /* width:50%; */
+    margin:auto;
+    border: 3px solid brown;
+    padding:10px;
+    background-color:rgb(34, 30, 30);
+    
+}
+.row1{
+    /* width:60%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* font-size:30px; */
+    text-align: center;
+    
+}
+.row2{
+    /* padding-top:20px; */
+    /* width:90%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    /* font-size:30px; */
+    text-align: center;
+    
+}
+.temp{
+    /* width:60%; */
+    margin: auto;
+    /* font-size: 30px; */
+    text-align: center;
+    
+}
+.days{
+    /* width:80%; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center ;
+}
+.colen1,.colen2,.colen3,.tempdot{
+    /* font-size: 50px; */
+    color:red;
+    
+}
+.sundot,.mondot,.tuedot,.weddot,.thudot,.fridot,.satdot{
+    font-size:70px;
+    color:rgb(189, 106, 106)
+}
+#date-num,#month-num,#year-num{
+    /* font-size: 50px; */
+    font-family:consolas,monospace ;
+   
+}   
+#date-num,#month-num,#year-num,#hour,#minute,#second,#tempnum{
+    /* background-color: rgb(170, 93, 93); */
+    color: red;
+}
+.date,.month,.year,.time,.tempname,.mon,.thu,.tue,.sun,.wed,.fri,.sat,#am,#pm{
+    color:white;
+}
+/* .date,.year,.month{
+    font-size:25px;
+    
+} */
+
+/* .time{
+    padding-left:70px;
+    font-size:25px;
+    padding-top:20px;
+} */
+/* #hour,#minute,#second{
+    font-size:60px;
+} */
+.time-am{
+    font-size: 20px;
+    /* padding-top:20px; */
+}
+.tempname{
+    font-size:30px;
+    padding:10px;
+}
+#tempnum{
+    font-size:50px;
+}
+.temp1{
+    font-size:50px;
+    color:white;
+}

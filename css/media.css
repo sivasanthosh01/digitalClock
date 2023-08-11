@@ -1,0 +1,134 @@
+/* digital Clock */
+
+/* for mobile */
+@media(min-width:320px) {
+    
+    .digital{
+        width:100%;
+    }
+    .row1{
+        width:100%;
+    }
+    .row2{
+        width:100%;
+    }
+    .temp{
+        width:90%;
+        height:50px;
+    }
+    .days{
+        width:100%;
+    }
+    #date-num,#month-num,#year-num{
+        font-size: 25px;
+    }
+    .date,.year,.month{
+        font-size:20px;
+        
+    }
+    #hour,#minute,#second{
+        font-size:32px;
+        padding-top:15px;
+    }
+    .time{
+        padding-left:10px;
+        font-size:25px;
+        padding-top:20px;
+    }
+    .colen1,.colen2,.colen3,.tempdot{
+        font-size: 50px;
+    }
+    .time-am{
+        padding-top:10px;
+    }
+
+}
+
+
+/* for ipad */
+@media(min-width:720px) {
+    .digital{
+        width:100%;
+    }
+    .row1{
+        width:60%;
+    }
+    .row2{
+        width:90%;
+    }
+    .temp{
+        width:60%;
+    }
+    .days{
+        width:80%;
+    }
+    #date-num,#month-num,#year-num{
+        font-size: 50px;
+    }    
+    .date,.year,.month{
+        font-size:25px;
+        
+    }
+    #hour,#minute,#second{
+        font-size:60px;
+    }
+    .time{
+        padding-left:70px;
+        font-size:25px;
+        padding-top:20px;
+    }
+    .colen1,.colen2,.colen3,.tempdot{
+        font-size: 50px;
+    }
+    .time-am{
+        padding-top:20px;
+    }
+
+
+
+}
+
+
+
+/* for laptop */
+@media(min-width:960px) {
+    
+    .digital{
+        width:50%;
+    }
+    .row1{
+        width:60%;
+    }
+    .row2{
+        width:90%;
+    }
+    .temp{
+        width:60%;
+    }
+    .days{
+        width:80%;
+    }
+    #date-num,#month-num,#year-num{
+        font-size: 50px;
+    }
+    .date,.year,.month{
+        font-size:25px;
+        
+    }
+    #hour,#minute,#second{
+        font-size:50px;
+    }
+    .time{
+        padding-left:70px;
+        font-size:25px;
+        padding-top:30px;
+    }
+    .colen1,.colen2,.colen3,.tempdot{
+        font-size:60px;
+    }
+    .time-am{
+        padding-top:20px;
+    }
+
+
+}
